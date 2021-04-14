@@ -1,4 +1,5 @@
-github_repo = 'EACD-UDEA/data'
+course_id = 'data'
+github_repo = 'EACD-UDEA/%s'%course_id
 zip_file_url="https://github.com/%s/archive/master.zip"%github_repo
 
 def get_last_modif_date(localdir):
